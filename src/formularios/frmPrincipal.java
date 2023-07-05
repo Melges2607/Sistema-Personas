@@ -4,12 +4,19 @@
  */
 package formularios;
 
+import classes.Dados;
+
 /**
  *
  * @author Melges
  */
 public class frmPrincipal extends javax.swing.JFrame {
-
+        
+    private Dados msDados;
+     
+    public void setDados(Dados msDados) {
+        this.msDados = msDados;
+    }
     /**
      * Creates new form frmPrincipal
      */
